@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>907</width>
+    <height>808</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Flucts</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Просмотр</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>451</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>p1727</string>
+     </attribute>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>451</width>
+        <height>231</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>p22m</string>
+     </attribute>
+     <widget class="QListWidget" name="listWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>441</width>
+        <height>281</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>raf</string>
+     </attribute>
+     <widget class="QListWidget" name="listWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>441</width>
+        <height>281</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>ЧТ</string>
+     </attribute>
+     <widget class="QListWidget" name="listWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>441</width>
+        <height>281</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Fryaz</string>
+     </attribute>
+     <widget class="QListWidget" name="listWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>441</width>
+        <height>281</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>thetaParser</string>
+     </attribute>
+     <widget class="QListWidget" name="listWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>451</width>
+        <height>231</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>891</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>30</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>до</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>от</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>261</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Построить</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>104</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhDigitsOnly</set>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="tabChangesFocus">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>30</y>
+       <width>101</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhDigitsOnly</set>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="tabChangesFocus">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>50</y>
+       <width>441</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Файл не выбран</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>90</y>
+       <width>631</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Файл не выбран</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="filtration1">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>30</y>
+       <width>221</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Вычесть флуктуации по ЧТ</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="report_CheckBox">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>70</y>
+       <width>131</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Запись в отчёт</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="spectrum_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>30</y>
+       <width>92</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Спектр</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="QW_checkBox">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>70</y>
+       <width>92</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Q и W</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>70</y>
+       <width>61</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhDigitsOnly</set>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="tabChangesFocus">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>70</y>
+       <width>61</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhDigitsOnly</set>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="tabChangesFocus">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>50</y>
+       <width>191</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Участок безоблачной погоды:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>431</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Частоты:</string>
+    </property>
+    <widget class="QCheckBox" name="checkBox_18649">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>18649</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_18700">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>18700</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_19100">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>19100</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_21100">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>21100</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_21700">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>21700</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_22300">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>170</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>22300</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_23900">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>190</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>23900</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_24100">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>230</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>24100</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_25300">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>25300</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_26900">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>270</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>26900</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_20449">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20449</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_22249">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>22249</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_24049">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>210</y>
+       <width>81</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>24049</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_18000">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>18000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_18200">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>50</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>18200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_18400">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>18400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_18600">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>90</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>18600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_18800">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>110</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>18800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_19000">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>19000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_19200">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>150</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>19200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_19400">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>170</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>19400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_19600">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>190</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>19600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_19800">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>210</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>19800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_20000">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>230</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_20200">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>250</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_20400">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>270</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_20600">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>30</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_20800">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>50</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_21000">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>70</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>21000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_21200">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>90</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>21200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_21400">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>110</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>21400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_21600">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>130</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>21600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_21800">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>150</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>21800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_22000">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>170</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>22000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_22200">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>190</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>22200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_22400">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>210</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>22400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_22600">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>230</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>22600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_22800">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>250</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>22800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_23000">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>270</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>23000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_23200">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>30</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>23200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_23400">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>50</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>23400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_23600">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>70</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>23600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_23800">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>90</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>23800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_24000">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>110</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>24000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_24200">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>130</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>24200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_24400">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>150</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>24400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_24600">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>170</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>24600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_24800">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>190</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>24800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_25000">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>210</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>25000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_25200">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>230</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>25200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_25400">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>250</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>25400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_25600">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>270</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>25600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_25800">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>30</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>25800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_26000">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>50</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>26000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_26200">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>70</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>26200</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_26400">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>90</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>26400</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_26600">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>110</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>26600</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_26800">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>130</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>26800</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_27000">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>150</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>27000</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_27200">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>170</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>27200</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>83</x>
+       <y>30</y>
+       <width>31</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>210</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Очистить</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>891</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="title">
+     <string>Погода:</string>
+    </property>
+    <widget class="QTextEdit" name="textEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>871</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>40</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Сохранить</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QCheckBox" name="deltas_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>280</y>
+      <width>201</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Дельты полуспектров</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>907</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionSave_selected">
+   <property name="text">
+    <string>Save selected</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="deductFluctsOfBB">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Вычесть флуктуации по ЧТ</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,2 @@
+flucts3=# COPY weather FROM '/home/dobri/Документы/flucts3/rp5/27612.01.01.2013.01.06.2018.1.0.0.ru.utf8.00000000.csv' DELIMITER ',' CSV;
+
